@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="NMPReceiver">
+        <wb-resource deploy-path="/" source-path="/src"/>
+        <dependent-module archiveName="NMPPersistence.jar" deploy-path="/" handle="module:/resource/NMPPersistence/NMPPersistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="NMPCommonUtils.jar" deploy-path="/" handle="module:/resource/NMPCommonUtils/NMPCommonUtils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-api-2.3.jar" deploy-path="/" handle="module:/classpath/lib/NMPProcessor/WebContent/WEB-INF/lib/common/log4j-api-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-core-2.3.jar" deploy-path="/" handle="module:/classpath/lib/NMPProcessor/WebContent/WEB-INF/lib/common/log4j-core-2.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
